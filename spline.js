@@ -162,7 +162,6 @@ btn.addEventListener('mousedown', () => {
 
     for (let t = 0; t < 1; t += 0.01) {
         let point = buildBSpline(t, bspline.order, bspline.points, bspline.knotsVector);
-        console.log(bspline.order, bspline.points, bspline.knotsVector);
         bsplineCurve.push(point);
     }
 
